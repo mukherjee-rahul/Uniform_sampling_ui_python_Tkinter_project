@@ -27,5 +27,5 @@ It was tested in python version: Python 3.10.0
 It contains Start, Stop and sampling_interval. It is to be entered by the user
 
 After that you can upload a csv file which should have two columns: first one should be the index column in my case it was Depth
-There must be column name as well.
+There must be column name as well.( Sample data 'Caliper.csv' is provided) to understand the format of the file
 Then you can check the columns with the button and finally export the resampled file.
