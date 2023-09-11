@@ -13,7 +13,7 @@ class Regularize:
     def do_task(self,file_path,csv_separator=','):
         self.data = pd.read_csv(file_path,delimiter=csv_separator)
         self.X= self.data.columns[0]
-        self.X = str.upper(self.X)
+        #self.X = str.upper(self.X)
         self.Y=self.data.columns[1]
 
         #Store columns to file
